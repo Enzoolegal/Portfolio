@@ -1,0 +1,86 @@
+.navtopo{
+    background-color: #b28568;
+    overflow: hidden;
+    border-bottom: 3px solid #502d25;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #b28568;
+    border-right: 3px solid #502d25;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+  }
+
+li{
+    border-bottom: 2px solid #502d25;
+}
+li a{
+    display: block;
+    color: #171314;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Arial;
+    font-weight: bold;
+    height: 100%;
+}
+
+li a:hover {
+    background-color: #d09a64;
+    color: white;
+  }
+
+li a:active{
+    background-color: #946f56;
+    color: #171314;
+}
+
+.selecionado{
+    background-color: #946f56;
+}
+  
+
+body{
+    background-color: #ecbb83;
+    color:  #171314; 
+    font-family: sans-serif, Arial;
+    align-self: center; 
+    text-align: center;
+    margin: 0;
+}
+
+.data{
+    font-weight: bold
+}
+
+.intro{
+    background-color: rgb(255, 218, 170); 
+    width: 860px; 
+    border-radius: 30px; 
+    outline: 2px solid rgb(116, 79, 31);
+}
+
+.form{
+    background-color: gainsboro; 
+    width: 200px; 
+    border-radius: 15px; 
+    outline: 2px solid #171314;
+}
+
+.border{
+    border: 2px solid #171314; 
+    border-radius: 10px;
+}
+
+.botão{
+    border: 2px solid #171314; 
+    border-radius: 20px;
+}
+
+main{
+    margin-left: 200px;
+}

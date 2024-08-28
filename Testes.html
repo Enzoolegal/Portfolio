@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Assets/Icon.png">
+
+    <script>
+        var teste = 0
+        function Progress(){
+            teste = teste + 1;
+            document.getElementById('progress').value = teste
+        }
+    </script>
+
+</head>
+<body style="background-color: #d09a64;">
+
+    <div class="navtopo">
+        <marquee behavior="alternate" scrollamount="2">
+        <h2>não sei o que colocar aqui ainda</h2>
+        </marquee>
+    </div>
+
+    <ul>
+        <li><a href="Corpo.html">Introdução</a></li>
+        <li><a href="MeuTrabalho.html">Meu trabalho</a></li>
+        <li><a href="Testes.html" class="selecionado">Testes</a></li>
+    </ul>
+
+
+    <main>
+    <p style="font-weight: bold;">Provavelmente vou apagar isso depois</p>
+
+    <!--<a href="Corpo.html" target="Corpo"> 
+        <center><button class="botão"><h3 style="width: 200px;">Voltar</h3></button></center>
+    </a>
+    <br>-->
+
+    <input placeholder="Pesquise por nada">
+    <br>
+    <br>
+    
+    <button type="button" onclick="document.getElementById('teste').innerHTML = 'Teste com javascript'">Botão que FAZ algo</button>
+    <button type="button" onclick="document.getElementById('teste').style.fontWeight = 'bold'">Botão que faz algo 2</button>
+    <p id="teste">Texto</p>
+
+    <br>
+    <button type="button" onclick="document.getElementById('segredo').style.display = 'block'">Botão que revela segredos</button>
+    <p style="display: none;" id="segredo">Olá</p>
+    <br><br>
+    <button type="button" onclick="window.alert('Alerta')">Teste</button>
+    <br><br>
+    
+    <button type="button" onclick="Progress()">Clique</button>
+    <progress value="0" max="100" id="progress"> 32% </progress>
+    </main>
+
+</body>
+</html>
